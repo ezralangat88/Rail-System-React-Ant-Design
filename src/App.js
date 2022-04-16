@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import MyHeader from './Components/Common/AppHeader';
+import MyHeader from './Components/AppHeader';
 import 'antd/dist/antd.css';
 
 
 import { Layout } from 'antd';
-import AppHome from './Components/Views/Home';
-import AppFooter from './Components/Common/Footer';
+import AppHome from './Components/Home';
+import AppFooter from './Components/Footer';
 
 const { Header,  Content, Footer } = Layout;
 

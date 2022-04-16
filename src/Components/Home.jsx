@@ -1,9 +1,9 @@
 import React from "react";
-import About from "../Home/About";
-import AppFeatures from "../Home/Features";
-import AppDescription from "../Home/Description";
-import Features from "../Home/Features";
-import AppContact from "../Home/Contact";
+import About from "./About";
+import AppFeatures from "./Features";
+import AppDescription from "./Description";
+import Features from "./Features";
+import AppContact from "./Contact";
 // Views
 const AppHome = () => {
   return (

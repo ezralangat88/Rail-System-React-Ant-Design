@@ -1,9 +1,9 @@
 import React from 'react'
 import { Row, Col } from 'antd';
 import { Card } from 'antd';
-import image1 from '../../assets/images/great-support.jpg';
-import image2 from '../../assets/images/bg-works.jpg';
-import image3 from '../../assets/images/advanced-option.jpg';
+import image1 from '../assets/images/great-support.jpg';
+import image2 from '../assets/images/bg-works.jpg';
+import image3 from '../assets/images/advanced-option.jpg';
 
 const { Meta } = Card;
 
