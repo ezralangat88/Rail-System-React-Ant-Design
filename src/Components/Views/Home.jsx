@@ -3,6 +3,7 @@ import About from "../Home/About";
 import AppFeatures from "../Home/Features";
 import AppDescription from "../Home/Description";
 import Features from "../Home/Features";
+import AppContact from "../Home/Contact";
 // Views
 const AppHome = () => {
   return (
@@ -10,6 +11,7 @@ const AppHome = () => {
         <AppDescription/>
         <About/>
         <Features/>
+        <AppContact/>
         
     </div>
   )
