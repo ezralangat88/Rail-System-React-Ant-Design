@@ -2,11 +2,13 @@ import React from 'react';
 import './App.css';
 import MyHeader from './Components/AppHeader';
 import 'antd/dist/antd.css';
-
-
 import { Layout } from 'antd';
-import AppHome from './Components/Home';
 import AppFooter from './Components/Footer';
+
+import About from './Components/About';
+import AppFeatures from './Components/Features';
+import AppDescription from './Components/Description';
+import AppContact from './Components/Contact';
 
 const { Header,  Content, Footer } = Layout;
 
@@ -20,10 +22,13 @@ function App() {
             <MyHeader/>
           </Header>
           <Content>
-            <AppHome></AppHome>
+            <AppDescription/>
+            <About/>
+            <AppFeatures/>
+            <AppContact/>
           </Content>
           <Footer>
-          <AppFooter/>
+            <AppFooter/>
           </Footer>
         </Layout>   
     </div>
